@@ -3,8 +3,8 @@
   <li>
     <h3>Exercitiul 1</h3>
     <ol>
-      <li>git clone https://github.com/anapetrescu/angular_intro.git</li>
-      <li>cd angular_intro/tweeter</li>
+      <li>git clone https://github.com/anapetrescu/learn-angular-tweeter.git</li>
+      <li>cd learn-angular-tweeter/tweeter</li>
       <li>npm install</li>
       <li>ng serve</li>
       <li>http://localhost:4200/</li>
@@ -27,7 +27,7 @@
         <li>signIn(user) -> return this.httpClient.get('http://localhost:3000/users?email=' + user.email + '&password=' + user.password);</li>
       </ul>
     </li>
-    <li>Adaugam functia in fisierul de typescript aferent si apelam functia din service</li>
+    <li>Adaugam functia in fisierul de typescript aferent si apelam creata service</li>
   </ol>
   </li>
   <li>

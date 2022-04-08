@@ -11,7 +11,7 @@ export class FeedComponent implements OnInit {
   constructor(
     private feedService: FeedService
   ) { }
-
+  
   posts: Array<any>;
   ngOnInit(): void {
     this.getPosts();

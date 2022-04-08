@@ -5,18 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss', '../auth.component.scss']
 })
-export class LoginComponent implements OnInit {
-  email: string;
-  password: string;
+export class LoginComponent implements OnInit{
 
   constructor() { }
 
   ngOnInit(): void {
-    this.email = 'initail value';
   }
 
-  login() {
-    console.log(this.email, this.password);
-    this.email = 'ceva';
-  }
 }

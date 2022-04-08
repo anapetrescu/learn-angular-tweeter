@@ -5,7 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AuthComponent } from './auth/auth.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { AuthService } from './auth/auth.service';
@@ -17,7 +16,6 @@ import { FeedService } from './feed/feed.service';
 @NgModule({
   declarations: [
     AppComponent,
-    AuthComponent,
     LoginComponent,
     RegisterComponent,
     FeedComponent,
