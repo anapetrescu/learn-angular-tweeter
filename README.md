@@ -6,7 +6,7 @@
       <li>git clone https://github.com/anapetrescu/learn-angular-tweeter.git</li>
       <li>cd learn-angular-tweeter/tweeter</li>
       <li>npm install</li>
-      <li>npm install -g json-server<li>
+      <li>npm install -g json-server</li>
       <li>ng serve</li>
       <li>http://localhost:4200/</li>
     </ol>
