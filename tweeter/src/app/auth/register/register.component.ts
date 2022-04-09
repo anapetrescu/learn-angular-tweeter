@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./register.component.scss', '../auth.component.scss']
 })
 export class RegisterComponent {
+  email: string;
+  password: string;
+  repeatPassword: string;
   
   constructor() { }
 }
