@@ -58,3 +58,5 @@
     <li>Completeaza cu ce este necesar pe feed.componentn.html</li>
   </ol>
 </li>
+
+<li>Asta e o schimbare pe branch-ul meu</li>
