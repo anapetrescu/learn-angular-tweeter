@@ -1,4 +1,20 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": "1",
+      "email": "anapetrescu011@gmail.com",
+      "password": "Test123"
+    },
+    {
+      "email": "ana@gmail.com",
+      "password": "Test",
+      "id": "Hlhn-xw"
+    },
+    {
+      "email": "ana@gmail.com",
+      "password": "Test",
+      "id": "JcvtsX4"
+    }
+  ],
   "posts": []
 }
