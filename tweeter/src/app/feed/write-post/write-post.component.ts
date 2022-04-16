@@ -8,22 +8,9 @@ import { FeedService } from '../feed.service';
 })
 export class WritePostComponent implements OnInit {
 
-  constructor(
-    private feedService: FeedService
-  ) { }
   tweet: string;
-  ngOnInit(): void {
-  }
+  constructor() { }
 
-  postTweet() {
-    console.log(localStorage.getItem("user_id"));
-    const newTweet = {
-      tweet: this.tweet,
-      user_id: localStorage.getItem("user_id")
-    }
-    console.log(newTweet);
-    this.feedService.saveTweet(newTweet).subscribe(response => {
-      this.tweet = "";
-    });
+  ngOnInit(): void {
   }
 }

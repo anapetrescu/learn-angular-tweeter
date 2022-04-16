@@ -8,23 +8,8 @@ import { FeedService } from './feed.service';
 })
 export class FeedComponent implements OnInit {
 
-  constructor(
-    private feedService: FeedService
-  ) { }
+  constructor() { }
   
-  posts: Array<any>;
-  ngOnInit(): void {
-    this.getPosts();
-  }
-
-  newPost(newTweet) {
-    this.posts.unshift(newTweet);
-  }
-
-  getPosts() {
-    this.feedService.getPosts().subscribe(posts => {
-      this.posts = posts.reverse();
-    });
-  }
+  ngOnInit(): void {}
 
 }
