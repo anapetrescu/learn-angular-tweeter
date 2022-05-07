@@ -7,7 +7,8 @@ import { FeedComponent } from './feed/feed.component';
 
 const routes: Routes = [
   {path: '', component: LoginComponent},
-  {path: 'signup', component: RegisterComponent}
+  {path: 'signup', component: RegisterComponent},
+  {path: 'feed', component: FeedComponent}
 ];
 
 @NgModule({
